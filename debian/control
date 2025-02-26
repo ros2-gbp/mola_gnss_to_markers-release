@@ -1,0 +1,12 @@
+Source: ros-rolling-mola-gnss-to-markers
+Section: misc
+Priority: optional
+Maintainer: José Luis Blanco-Claraco <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-mrpt-libobs, ros-rolling-mrpt-nav-interfaces, ros-rolling-rclcpp, ros-rolling-std-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-mola-gnss-to-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-mrpt-libobs, ros-rolling-mrpt-nav-interfaces, ros-rolling-rclcpp, ros-rolling-std-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: Takes GNSS (GPS) readings, a MOLA georeferenced map, and publishes markers to visualize the datums as ellipsoids on the map
