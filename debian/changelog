@@ -1,0 +1,40 @@
+ros-jazzy-mola-gnss-to-markers (0.1.2-1noble) noble; urgency=high
+
+  * Relax unit tests (don't use ament clang-format)
+  * Update broken link to ROS Index
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- José Luis Blanco-Claraco <joseluisblancoc@gmail.com>  Thu, 25 Dec 2025 23:00:00 -0000
+
+ros-jazzy-mola-gnss-to-markers (0.1.1-1noble) noble; urgency=high
+
+  * docs: badge table, add kilted badge.
+  * better direct integration with vscode and colcon
+  * Merge pull request #5 <https://github.com/MOLAorg/mola_gnss_to_markers/issues/5> from ahcorde/ahcorde/rolling/replace_ament_target_dependencies
+    Replace ament_target_dependencies with target_link_libraries
+  * Replace ament_target_dependencies with target_link_libraries
+  * Contributors: Alejandro Hernandez Cordero, Jose Luis Blanco-Claraco
+
+ -- José Luis Blanco-Claraco <joseluisblancoc@gmail.com>  Wed, 21 May 2025 22:00:00 -0000
+
+ros-jazzy-mola-gnss-to-markers (0.1.0-1noble) noble; urgency=high
+
+  * Add GIF screenshot to README
+  * Merge pull request #4 <https://github.com/MOLAorg/mola_gnss_to_markers/issues/4> from r-aguilera/develop
+    Fix wrong marker color assignment
+  * Fix wrong marker color assignment
+  * Update README.md
+  * Merge pull request #3 <https://github.com/MOLAorg/mola_gnss_to_markers/issues/3> from r-aguilera/develop
+    Parameterized launch file
+  * Parameterized launch file
+  * Merge pull request #1 <https://github.com/MOLAorg/mola_gnss_to_markers/issues/1> from MOLAorg/feature/add-ci
+    Feature/add ci
+  * Add ROS badges
+  * Add CI jobs
+  * Implement first working version
+  * Initial commit
+  * Contributors: Jose Luis Blanco-Claraco, Raúl Aguilera López
+
+ -- José Luis Blanco-Claraco <joseluisblancoc@gmail.com>  Tue, 25 Feb 2025 23:00:00 -0000
+
+
