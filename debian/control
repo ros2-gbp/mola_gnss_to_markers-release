@@ -1,0 +1,12 @@
+Source: ros-lyrical-mola-gnss-to-markers
+Section: misc
+Priority: optional
+Maintainer: José Luis Blanco-Claraco <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-mrpt-libobs, ros-lyrical-mrpt-nav-interfaces, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/mola_gnss_to_markers/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-mola-gnss-to-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-mrpt-libobs, ros-lyrical-mrpt-nav-interfaces, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: Takes GNSS (GPS) readings, a MOLA georeferenced map, and publishes markers to visualize the datums as ellipsoids on the map
