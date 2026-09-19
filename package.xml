@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>mola_gnss_to_markers</name>
-  <version>0.1.2</version>
+  <version>0.2.0</version>
   <description>Takes GNSS (GPS) readings, a MOLA georeferenced map, and publishes markers to visualize the datums as ellipsoids on the map</description>
   <maintainer email="joseluisblancoc@gmail.com">José Luis Blanco-Claraco</maintainer>
   <license>BSD-3-Clause</license>
@@ -13,10 +13,10 @@
   <depend>std_msgs</depend>
   <depend>mrpt_nav_interfaces</depend>
   <depend>visualization_msgs</depend>
-  <depend>mrpt_libobs</depend> <!-- mrpt-topography, actually -->
+  <depend>sensor_msgs</depend>
+  <depend>mrpt_topography</depend>
 
   <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_cmake_lint_cmake</test_depend>
   <test_depend>ament_cmake_xmllint</test_depend>
 
   <export>
